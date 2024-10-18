@@ -1,0 +1,330 @@
+import pandas as pd
+from google.colab import files
+uploaded = files.upload()
+sample_1_h_003 = list(uploaded.keys())[0]
+with open(sample_1_h_003, 'wb') as f:
+    f.write(uploaded[sample_1_h_003])
+uploaded = files.upload()
+sample_1_h_019= list(uploaded.keys())[0]
+with open(sample_1_h_019, 'wb') as f:
+    f.write(uploaded[sample_1_h_019])
+uploaded = files.upload()
+sample_1_h_069= list(uploaded.keys())[0]
+with open(sample_1_h_069, 'wb') as f:
+    f.write(uploaded[sample_1_h_069])
+uploaded = files.upload()
+sample_1_h_070= list(uploaded.keys())[0]
+with open(sample_1_h_070, 'wb') as f:
+    f.write(uploaded[sample_1_h_070])
+uploaded = files.upload()
+sample_1_h_109= list(uploaded.keys())[0]
+with open(sample_1_h_109, 'wb') as f:
+    f.write(uploaded[sample_1_h_109])
+uploaded = files.upload()
+sample_1_h_128= list(uploaded.keys())[0]
+with open(sample_1_h_128, 'wb') as f:
+    f.write(uploaded[sample_1_h_128])
+uploaded = files.upload()
+sample_1_h_129= list(uploaded.keys())[0]
+with open(sample_1_h_129, 'wb') as f:
+    f.write(uploaded[sample_1_h_129])
+uploaded = files.upload()
+sample_1_h_150= list(uploaded.keys())[0]
+with open(sample_1_h_150, 'wb') as f:
+    f.write(uploaded[sample_1_h_150])
+uploaded = files.upload()
+sample_1_h_151= list(uploaded.keys())[0]
+with open(sample_1_h_151, 'wb') as f:
+    f.write(uploaded[sample_1_h_151])
+uploaded = files.upload()
+sample_1_h_152= list(uploaded.keys())[0]
+with open(sample_1_h_152, 'wb') as f:
+    f.write(uploaded[sample_1_h_152])
+uploaded = files.upload()
+sample_1_h_153= list(uploaded.keys())[0]
+with open(sample_1_h_153, 'wb') as f:
+    f.write(uploaded[sample_1_h_153])
+uploaded = files.upload()
+sample_1_h_154= list(uploaded.keys())[0]
+with open(sample_1_h_154, 'wb') as f:
+    f.write(uploaded[sample_1_h_154])
+uploaded = files.upload()
+sample_1_h_155= list(uploaded.keys())[0]
+with open(sample_1_h_155, 'wb') as f:
+    f.write(uploaded[sample_1_h_155])
+uploaded = files.upload()
+sample_1_h_156= list(uploaded.keys())[0]
+with open(sample_1_h_156, 'wb') as f:
+    f.write(uploaded[sample_1_h_156])
+uploaded = files.upload()
+sample_1_h_157= list(uploaded.keys())[0]
+with open(sample_1_h_157, 'wb') as f:
+    f.write(uploaded[sample_1_h_157])
+uploaded = files.upload()
+sample_1_h_165= list(uploaded.keys())[0]
+with open(sample_1_h_165, 'wb') as f:
+    f.write(uploaded[sample_1_h_165])
+uploaded = files.upload()
+sample_1_h_166= list(uploaded.keys())[0]
+with open(sample_1_h_166, 'wb') as f:
+    f.write(uploaded[sample_1_h_166])
+uploaded = files.upload()
+sample_1_h_171= list(uploaded.keys())[0]
+with open(sample_1_h_171, 'wb') as f:
+    f.write(uploaded[sample_1_h_171])
+uploaded = files.upload()
+sample_1_h_203= list(uploaded.keys())[0]
+with open(sample_1_h_203, 'wb') as f:
+    f.write(uploaded[sample_1_h_203])
+uploaded = files.upload()
+sample_1_h_211= list(uploaded.keys())[0]
+with open(sample_1_h_211, 'wb') as f:
+    f.write(uploaded[sample_1_h_211])
+uploaded = files.upload()
+sample_1_h_212= list(uploaded.keys())[0]
+with open(sample_1_h_212, 'wb') as f:
+    f.write(uploaded[sample_1_h_212])
+uploaded = files.upload()
+sample_1_h_262= list(uploaded.keys())[0]
+with open(sample_1_h_262, 'wb') as f:
+    f.write(uploaded[sample_1_h_262])
+uploaded = files.upload()
+sample_1_h_318= list(uploaded.keys())[0]
+with open(sample_1_h_318, 'wb') as f:
+    f.write(uploaded[sample_1_h_318])
+uploaded = files.upload()
+sample_1_h_319= list(uploaded.keys())[0]
+with open(sample_1_h_319, 'wb') as f:
+    f.write(uploaded[sample_1_h_319])
+uploaded = files.upload()
+sample_1_h_401= list(uploaded.keys())[0]
+with open(sample_1_h_401, 'wb') as f:
+    f.write(uploaded[sample_1_h_401])
+uploaded = files.upload()
+sample_1_h_402= list(uploaded.keys())[0]
+with open(sample_1_h_402, 'wb') as f:
+    f.write(uploaded[sample_1_h_402])
+uploaded = files.upload()
+sample_1_h_427= list(uploaded.keys())[0]
+with open(sample_1_h_427, 'wb') as f:
+    f.write(uploaded[sample_1_h_427])
+uploaded = files.upload()
+sample_1_h_428= list(uploaded.keys())[0]
+with open(sample_1_h_428, 'wb') as f:
+    f.write(uploaded[sample_1_h_428])
+uploaded = files.upload()
+sample_1_h_429= list(uploaded.keys())[0]
+with open(sample_1_h_429, 'wb') as f:
+    f.write(uploaded[sample_1_h_429])
+uploaded = files.upload()
+sample_1_h_430= list(uploaded.keys())[0]
+with open(sample_1_h_430, 'wb') as f:
+    f.write(uploaded[sample_1_h_430])
+uploaded = files.upload()
+sample_1_h_448= list(uploaded.keys())[0]
+with open(sample_1_h_448, 'wb') as f:
+    f.write(uploaded[sample_1_h_448])
+uploaded = files.upload()
+sample_1_h_449= list(uploaded.keys())[0]
+with open(sample_1_h_449, 'wb') as f:
+    f.write(uploaded[sample_1_h_449])
+uploaded = files.upload()
+sample_2_h_007= list(uploaded.keys())[0]
+with open(sample_2_h_007, 'wb') as f:
+    f.write(uploaded[sample_2_h_007])
+uploaded = files.upload()
+sample_2_h_072= list(uploaded.keys())[0]
+with open(sample_2_h_072, 'wb') as f:
+    f.write(uploaded[sample_2_h_072])
+uploaded = files.upload()
+sample_2_h_073= list(uploaded.keys())[0]
+with open(sample_2_h_073, 'wb') as f:
+    f.write(uploaded[sample_2_h_073])
+uploaded = files.upload()
+sample_2_h_074= list(uploaded.keys())[0]
+with open(sample_2_h_074, 'wb') as f:
+    f.write(uploaded[sample_2_h_074])
+uploaded = files.upload()
+sample_2_h_098= list(uploaded.keys())[0]
+with open(sample_2_h_098, 'wb') as f:
+    f.write(uploaded[sample_2_h_098])
+uploaded = files.upload()
+sample_2_h_099= list(uploaded.keys())[0]
+with open(sample_2_h_099, 'wb') as f:
+    f.write(uploaded[sample_2_h_099])
+uploaded = files.upload()
+sample_2_h_100= list(uploaded.keys())[0]
+with open(sample_2_h_100, 'wb') as f:
+    f.write(uploaded[sample_2_h_100])
+uploaded = files.upload()
+sample_2_h_101= list(uploaded.keys())[0]
+with open(sample_2_h_101, 'wb') as f:
+    f.write(uploaded[sample_2_h_101])
+df1 = pd.read_csv(sample_1_h_003, sep='\t')
+df2 = pd.read_csv(sample_1_h_019, sep='\t')
+df3 = pd.read_csv(sample_1_h_069, sep='\t')
+df4 = pd.read_csv(sample_1_h_070, sep='\t')
+df5 = pd.read_csv(sample_1_h_109, sep='\t')
+df6 = pd.read_csv(sample_1_h_128, sep='\t')
+df7 = pd.read_csv(sample_1_h_129, sep='\t')
+df8 = pd.read_csv(sample_1_h_150, sep='\t')
+df9 = pd.read_csv(sample_1_h_151, sep='\t')
+df10 = pd.read_csv(sample_1_h_152, sep='\t')
+df11 = pd.read_csv(sample_1_h_153, sep='\t')
+df12 = pd.read_csv(sample_1_h_154, sep='\t')
+df13 = pd.read_csv(sample_1_h_155, sep='\t')
+df14 = pd.read_csv(sample_1_h_156, sep='\t')
+df15 = pd.read_csv(sample_1_h_157, sep='\t')
+df16 = pd.read_csv(sample_1_h_165, sep='\t')
+df17 = pd.read_csv(sample_1_h_166, sep='\t')
+df18 = pd.read_csv(sample_1_h_171, sep='\t')
+df19 = pd.read_csv(sample_1_h_203, sep='\t')
+df20 = pd.read_csv(sample_1_h_211, sep='\t')
+df21 = pd.read_csv(sample_1_h_212, sep='\t')
+df22 = pd.read_csv(sample_1_h_262, sep='\t')
+df23 = pd.read_csv(sample_1_h_318, sep='\t')
+df24 = pd.read_csv(sample_1_h_319, sep='\t')
+df25 = pd.read_csv(sample_1_h_401, sep='\t')
+df26 = pd.read_csv(sample_1_h_402, sep='\t')
+df27 = pd.read_csv(sample_1_h_427, sep='\t')
+df28 = pd.read_csv(sample_1_h_428, sep='\t')
+df29 = pd.read_csv(sample_1_h_429, sep='\t')
+df30 = pd.read_csv(sample_1_h_430, sep='\t')
+df31 = pd.read_csv(sample_1_h_448, sep='\t')
+df32 = pd.read_csv(sample_1_h_449, sep='\t')
+df33 = pd.read_csv(sample_2_h_007, sep='\t')
+df34 = pd.read_csv(sample_2_h_072, sep='\t')
+df35 = pd.read_csv(sample_2_h_073, sep='\t')
+df36 = pd.read_csv(sample_2_h_074, sep='\t')
+df37 = pd.read_csv(sample_2_h_098, sep='\t')
+df38 = pd.read_csv(sample_2_h_099, sep='\t')
+df39 = pd.read_csv(sample_2_h_100, sep='\t')
+df40 = pd.read_csv(sample_2_h_101, sep='\t')
+df1['TF_Target'] = df1['Target'] + '__' + df1['TF']
+df2['TF_Target'] = df2['Target'] + '__' + df2['TF']
+df3['TF_Target'] = df3['Target'] + '__' + df3['TF']
+df4['TF_Target'] = df4['Target'] + '__' + df4['TF']
+df5['TF_Target'] = df5['Target'] + '__' + df5['TF']
+df6['TF_Target'] = df6['Target'] + '__' + df6['TF']
+df7['TF_Target'] = df7['Target'] + '__' + df7['TF']
+df8['TF_Target'] = df8['Target'] + '__' + df8['TF']
+df9['TF_Target'] = df9['Target'] + '__' + df9['TF']
+df10['TF_Target'] = df10['Target'] + '__' + df10['TF']
+df11['TF_Target'] = df11['Target'] + '__' + df11['TF']
+df12['TF_Target'] = df12['Target'] + '__' + df12['TF']
+df13['TF_Target'] = df13['Target'] + '__' + df13['TF']
+df14['TF_Target'] = df14['Target'] + '__' + df14['TF']
+df15['TF_Target'] = df15['Target'] + '__' + df15['TF']
+df16['TF_Target'] = df16['Target'] + '__' + df16['TF']
+df17['TF_Target'] = df17['Target'] + '__' + df17['TF']
+df18['TF_Target'] = df18['Target'] + '__' + df18['TF']
+df19['TF_Target'] = df19['Target'] + '__' + df19['TF']
+df20['TF_Target'] = df20['Target'] + '__' + df20['TF']
+df21['TF_Target'] = df21['Target'] + '__' + df21['TF']
+df22['TF_Target'] = df22['Target'] + '__' + df22['TF']
+df23['TF_Target'] = df23['Target'] + '__' + df23['TF']
+df24['TF_Target'] = df24['Target'] + '__' + df24['TF']
+df25['TF_Target'] = df25['Target'] + '__' + df25['TF']
+df26['TF_Target'] = df26['Target'] + '__' + df26['TF']
+df27['TF_Target'] = df27['Target'] + '__' + df27['TF']
+df28['TF_Target'] = df28['Target'] + '__' + df28['TF']
+df29['TF_Target'] = df29['Target'] + '__' + df29['TF']
+df30['TF_Target'] = df30['Target'] + '__' + df30['TF']
+df31['TF_Target'] = df31['Target'] + '__' + df31['TF']
+df32['TF_Target'] = df32['Target'] + '__' + df32['TF']
+df33['TF_Target'] = df33['Target'] + '__' + df33['TF']
+df34['TF_Target'] = df34['Target'] + '__' + df34['TF']
+df35['TF_Target'] = df35['Target'] + '__' + df35['TF']
+df36['TF_Target'] = df36['Target'] + '__' + df36['TF']
+df37['TF_Target'] = df37['Target'] + '__' + df37['TF']
+df38['TF_Target'] = df38['Target'] + '__' + df38['TF']
+df39['TF_Target'] = df39['Target'] + '__' + df39['TF']
+df40['TF_Target'] = df40['Target'] + '__' + df40['TF']
+all_columns = set(df1['TF_Target']).union(set(df2['TF_Target'])).union(set(df3['TF_Target'])).union(set(df4['TF_Target'])).union(set(df5['TF_Target'])).union(set(df6['TF_Target'])).union(set(df7['TF_Target'])).union(set(df8['TF_Target'])).union(set(df9['TF_Target'])).union(set(df10['TF_Target'])).union(set(df11['TF_Target'])).union(set(df12['TF_Target'])).union(set(df13['TF_Target'])).union(set(df14['TF_Target'])).union(set(df15['TF_Target'])).union(set(df16['TF_Target'])).union(set(df17['TF_Target'])).union(set(df18['TF_Target'])).union(set(df19['TF_Target'])).union(set(df20['TF_Target'])).union(set(df21['TF_Target'])).union(set(df22['TF_Target'])).union(set(df23['TF_Target'])).union(set(df24['TF_Target'])).union(set(df25['TF_Target'])).union(set(df26['TF_Target'])).union(set(df27['TF_Target'])).union(set(df28['TF_Target'])).union(set(df29['TF_Target'])).union(set(df30['TF_Target'])).union(set(df31['TF_Target'])).union(set(df32['TF_Target'])).union(set(df33['TF_Target'])).union(set(df34['TF_Target'])).union(set(df35['TF_Target'])).union(set(df36['TF_Target'])).union(set(df37['TF_Target'])).union(set(df38['TF_Target'])).union(set(df39['TF_Target'])).union(set(df40['TF_Target']))
+all_columns = list(all_columns)
+binary_matrix = pd.DataFrame(0, index=['sample_1_h_003', 'sample_1_h_019', 'sample_1_h_069', 'sample_1_h_070', 'sample_1_h_109', 'sample_1_h_128', 'sample_1_h_129', 'sample_1_h_150', 'sample_1_h_151', 'sample_1_h_152', 'sample_1_h_153', 'sample_1_h_154', 'sample_1_h_155', 'sample_1_h_156', 'sample_1_h_157', 'sample_1_h_165', 'sample_1_h_166', 'sample_1_h_171', 'sample_1_h_203', 'sample_1_h_211', 'sample_1_h_212', 'sample_1_h_262', 'sample_1_h_318', 'sample_1_h_319', 'sample_1_h_401', 'sample_1_h_402', 'sample_1_h_427', 'sample_1_h_428', 'sample_1_h_429', 'sample_1_h_430', 'sample_1_h_448', 'sample_1_h_449', 'sample_2_h_007', 'sample_2_h_072', 'sample_2_h_073', 'sample_2_h_074', 'sample_2_h_098', 'sample_2_h_099', 'sample_2_h_100', 'sample_2_h_101'], columns=all_columns)
+
+for pair in df1['TF_Target']:
+    binary_matrix.loc['sample_1_h_003', pair] = 1
+for pair in df2['TF_Target']:
+    binary_matrix.loc['sample_1_h_019', pair] = 1
+for pair in df3['TF_Target']:
+    binary_matrix.loc['sample_1_h_069', pair] = 1
+for pair in df4['TF_Target']:
+    binary_matrix.loc['sample_1_h_070', pair] = 1
+for pair in df5['TF_Target']:
+    binary_matrix.loc['sample_1_h_109', pair] = 1
+for pair in df6['TF_Target']:
+    binary_matrix.loc['sample_1_h_128', pair] = 1
+for pair in df7['TF_Target']:
+    binary_matrix.loc['sample_1_h_129', pair] = 1
+for pair in df8['TF_Target']:
+    binary_matrix.loc['sample_1_h_150', pair] = 1
+for pair in df9['TF_Target']:
+    binary_matrix.loc['sample_1_h_151', pair] = 1
+for pair in df10['TF_Target']:
+    binary_matrix.loc['sample_1_h_152', pair] = 1
+for pair in df11['TF_Target']:
+    binary_matrix.loc['sample_1_h_153', pair] = 1
+for pair in df12['TF_Target']:
+    binary_matrix.loc['sample_1_h_154', pair] = 1
+for pair in df13['TF_Target']:
+    binary_matrix.loc['sample_1_h_155', pair] = 1
+for pair in df14['TF_Target']:
+    binary_matrix.loc['sample_1_h_156', pair] = 1
+for pair in df15['TF_Target']:
+    binary_matrix.loc['sample_1_h_157', pair] = 1
+for pair in df16['TF_Target']:
+    binary_matrix.loc['sample_1_h_165', pair] = 1
+for pair in df17['TF_Target']:
+    binary_matrix.loc['sample_1_h_166', pair] = 1
+for pair in df18['TF_Target']:
+    binary_matrix.loc['sample_1_h_171', pair] = 1
+for pair in df19['TF_Target']:
+    binary_matrix.loc['sample_1_h_203', pair] = 1
+for pair in df20['TF_Target']:
+    binary_matrix.loc['sample_1_h_211', pair] = 1
+for pair in df21['TF_Target']:
+    binary_matrix.loc['sample_1_h_212', pair] = 1
+for pair in df22['TF_Target']:
+    binary_matrix.loc['sample_1_h_262', pair] = 1
+for pair in df23['TF_Target']:
+    binary_matrix.loc['sample_1_h_318', pair] = 1
+for pair in df24['TF_Target']:
+    binary_matrix.loc['sample_1_h_319', pair] = 1
+for pair in df25['TF_Target']:
+    binary_matrix.loc['sample_1_h_401', pair] = 1
+for pair in df26['TF_Target']:
+    binary_matrix.loc['sample_1_h_402', pair] = 1
+for pair in df27['TF_Target']:
+    binary_matrix.loc['sample_1_h_427', pair] = 1
+for pair in df28['TF_Target']:
+    binary_matrix.loc['sample_1_h_428', pair] = 1
+for pair in df29['TF_Target']:
+    binary_matrix.loc['sample_1_h_429', pair] = 1
+for pair in df30['TF_Target']:
+    binary_matrix.loc['sample_1_h_430', pair] = 1
+for pair in df31['TF_Target']:
+    binary_matrix.loc['sample_1_h_448', pair] = 1
+for pair in df32['TF_Target']:
+    binary_matrix.loc['sample_1_h_449', pair] = 1
+for pair in df33['TF_Target']:
+    binary_matrix.loc['sample_2_h_007', pair] = 1
+for pair in df34['TF_Target']:
+    binary_matrix.loc['sample_2_h_072', pair] = 1
+for pair in df35['TF_Target']:
+    binary_matrix.loc['sample_2_h_073', pair] = 1
+for pair in df36['TF_Target']:
+    binary_matrix.loc['sample_2_h_074', pair] = 1
+for pair in df37['TF_Target']:
+    binary_matrix.loc['sample_2_h_098', pair] = 1
+for pair in df38['TF_Target']:
+    binary_matrix.loc['sample_2_h_099', pair] = 1
+for pair in df39['TF_Target']:
+    binary_matrix.loc['sample_2_h_100', pair] = 1
+for pair in df40['TF_Target']:
+    binary_matrix.loc['sample_2_h_101', pair] = 1
+output_file = 'united_tf_target_binary_matrix_final.csv'
+binary_matrix.to_csv(output_file)
+from google.colab import files
+files.download('united_tf_target_binary_matrix_final.csv')
